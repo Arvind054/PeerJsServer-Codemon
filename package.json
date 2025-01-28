@@ -2,10 +2,11 @@
   "name": "peerjs-server",
   "version": "1.0.0",
   "main": "index.js",
- "scripts": {
-  "start": "cross-env PORT=$PORT peerjs --port $PORT --key peerjs --path /myapp"
-},
+  "scripts": {
+    "start": "cross-env PORT=$PORT peerjs --port $PORT --key peerjs --path /myapp"
+  },
   "dependencies": {
+    "cross-env": "^7.0.3",
     "peer": "^0.6.1"
   }
 }
